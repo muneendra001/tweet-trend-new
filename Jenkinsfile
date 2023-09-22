@@ -56,8 +56,8 @@ environment {
                      def uploadSpec = """{
                           "files": [
                             {
-                              "pattern": "jarstaging/(*)",               //artifact saving path in maven-slave
-                              "target": "libs-release-local/{1}",        //artifact uploding path in Jfrog artifactory
+                              "pattern": "jarstaging/(*)",
+                              "target": "libs-release-local/{1}",
                               "flat": "false",
                               "props" : "${properties}",
                               "exclusions": [ "*.sha1", "*.md5"]
