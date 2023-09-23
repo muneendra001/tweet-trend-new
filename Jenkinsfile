@@ -1,6 +1,6 @@
 def registry = 'https://galaxy02.jfrog.io'  // Jfrog registry URL
 def imageName = 'galaxy02.jfrog.io/galaxy-docker-local/ttrend'  // Jfrog docker repository path and artifact name
-def version   = '2.1.2'
+def version   = '2.1.3'
 pipeline {
     agent  {
         node {

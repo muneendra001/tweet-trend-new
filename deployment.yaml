@@ -17,7 +17,7 @@ spec:
       - name: jfrogcred
       containers:
       - name:  galaxy-rtp
-        image: galaxy02.jfrog.io/galaxy-docker-local/ttrend:2.1.2
+        image: galaxy02.jfrog.io/galaxy-docker-local/ttrend:2.1.3
         imagePullPolicy: Always
         ports:
         - containerPort: 8000
